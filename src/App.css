@@ -24,6 +24,41 @@
   color: white;
 }
 
+.skill-section {
+  background-color: #282c34;
+  width: 100vw;
+
+}
+
+.skill-languages {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: content-box;
+  margin: auto;
+}
+
+.skill-languages > div {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.skill-languages > div > img {
+  width: 8vw;
+}
+
+.skill-languages > div > label {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 5px;
+}
+
 .App-link {
   color: #61dafb;
 }
